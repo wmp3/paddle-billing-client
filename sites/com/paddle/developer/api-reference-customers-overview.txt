@@ -189,3 +189,11 @@ get
 https://api.paddle.com
 
 /customers/{customer_id}/credit-balances
+
+Generate an authentication token for a customer
+
+post
+
+https://api.paddle.com
+
+/customers/{customer_id}/auth-token
